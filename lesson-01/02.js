@@ -1,7 +1,7 @@
 let number1 = Math.floor(Math.random() * 100);
 
-function isEvenOrOdd(number) {
-    return number % 2 === 0 ? `${number} : Это четное число` : `${number} : Это нечетное число`
+if (number1 % 2 === 0) {
+    console.log(`${number1} : Это четное число`)
+} else {
+    console.log(`${number1} : Это нечетное число`)
 }
-
-console.log(isEvenOrOdd(number1))
